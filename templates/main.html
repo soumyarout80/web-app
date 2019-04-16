@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/templates/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> MyPage </title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+      <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+      <input type="text" placeholder="Search..">
+    </div>
+    <div class="footer">
+        <script type="text/javascript">
+          document.write("<p1>" + Date() + "</p1>");
+        </script>
+      </div>
+    <br><br>
+    <form>
+      Enter a number: <input type="number" name="a" id="a"><br>
+      <!--<button onclick="trailing_zeros_factorial(document.getElementById('a').value)">Submit</button> -->
+      <button onclick="trailing_zeros_factorial()">Output</button>
+    </form><br>
+    <p>This will calculate the factorial having tralling zeros of a input numbe.
+      Please Enter a number and click on Output</p>
+    <script type="text/javascript" src="/templates/myScript.js"> </script>
+  </body>
+</html>
